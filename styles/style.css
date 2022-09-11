@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@700 & display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+
+ body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #0629BB 16.62%, #271f20 85.61%);
+ }
+
+ .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+    margin-bottom: 50px;
+ }
+
+ .cabecalho-imagem {
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+    border: 2px #FFF2E7 solid;
+ }
+
+ .cabecalho-menu {
+    display: flex;
+    gap: 20px;
+ }
+
+ .cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF2E7;
+ }
+
+ .cabecalho-menu-item:hover {
+   transition: 0.3s all;
+   cursor: pointer;
+   color: #1629ce;
+ }
+
+ .cabecalho-menu-image {
+   width: 20px;
+ }
+
+ .conteudo {
+    margin-bottom: 48px;
+ }
+
+ .conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ .conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+ }
+ 
+ .conteudo-principal-escrito-titulo {
+   font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFF2E7;
+ }
+
+ .conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6c4;
+ }
+
+ .conteudo-principal-escrito-botao {
+    background-color: #FFF2E7;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+ }
+
+ .conteudo-principal-escrito-botao:hover {
+    background-color: rgba( 236, 214, 196, 0.53);
+ }
+
+ .conteudo-principal-imagem {
+   width: 350px;
+ }
+
+ .conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 100px;
+ }
+
+ .conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+ }
+
+ .conteudo-secundario-titulo-2 {
+    padding-top: 48px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+ }
+
+ .conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6c4;
+    text-align: justify;
+    width: 650px;
+ }
+
+ .accordion_item {
+   background: linear-gradient(68.15deg, #000000 16.62%, #0629BB 85.61%);
+   color: #FFF2E7;
+   border-radius: 5px;
+ }
+
+ .accordion_item:hover {
+   opacity: 0.9;
+ }
+
+ .accordion_header {
+   padding: 10px;
+   cursor: pointer;
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .accordion_content {
+   margin-left: 50px;
+   margin-right: 15px;
+   overflow: hidden;
+   height: 0;
+   transition: all 0.9 ease;
+   font-size: 14px;
+ }
+
+ .active {
+   padding-bottom: 10px;
+ }
+
+ .span, .icon {
+   font-weight: 600;
+ }
+
+ .container {
+   font-family: 'Sarala', sans-serif;
+   box-shadow: 8px 10px 5px #0003;
+   max-width: 500px;
+   background-color: white;
+   border-radius: 5px;
+   padding: 10px;
+   margin: auto 5px;
+ }
+
+ .content {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+ }
+
+ .rodape {
+    padding: 20px;
+    padding-top: 10;
+    border-top: 0.2px solid #FFF2E7;
+    color: #ECD6c4;
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    background-color: #000000;
+ }
+
+ .rodape-paragrafo {
+   display: flex;
+   justify-content: center;
+ }
+
+ .logoDev {
+   width: 200px;
+   display: flex;
+ }
+
+ .container-rodape {
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   align-items: center;
+   justify-content: center;
+   font-size: 22px;
+ }
+
+ .rodape-titulo:hover {
+   transition: 0.3s all;
+   cursor: pointer;
+   color:#1629ce;
+ }
